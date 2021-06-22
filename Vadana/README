@@ -1,0 +1,6 @@
+This program has only one simple line of code.
+if(!document.URL.includes("&proto=true")) window.location.href=document.URL+"&proto=true";
+
+Add "&proto=true" to the end of the URL before redirecting.
+
+

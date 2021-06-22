@@ -1,0 +1,29 @@
+{
+  "manifest_version": 2,
+  "name": "Vadana",
+  "version": "1.0",
+  "description": "This plugin was created for the https://vadavc32.iauec.ac.ir site. This plugin helps you to login to your classes or view the recorded classes when using the desktop browser without using adobe connect.",
+  "author": "Mohammad Reza",
+  "default_locale": "fa",
+  "homepage_url": "https://github.com/mohammad0021/Vadana",
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "<all_urls>"
+  ],
+  "icons": {
+    "48": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "all_frames": true,
+      "run_at": "document_start",
+      "matches": [
+        "https://vadavc32.iauec.ac.ir/*/?session=*"
+      ],
+      "js": [
+        "Vadana.js"
+      ]
+    }
+  ]
+}

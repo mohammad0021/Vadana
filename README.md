@@ -3,7 +3,7 @@
 This plugin was created for the [vadavc32.iauec.ac.ir](https://vadavc32.iauec.ac.ir) site. <br>
 This plugin helps you to login to your classes or view the recorded classes when using the desktop browser without using adobe connect.
 
-# How to use
+# How to install
 1. Open the terminal and go to Vadana folder.<br>
 Run Command: <br>
 `zip -r -FS ../Vadana.zip *`<br>

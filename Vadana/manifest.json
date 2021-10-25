@@ -19,7 +19,8 @@
       "all_frames": true,
       "run_at": "document_start",
       "matches": [
-        "https://vadavc32.iauec.ac.ir/*/?session=*"
+        "https://vadavc32.iauec.ac.ir/*/?session=*",
+        "https://vadavc64.iauec.ac.ir/*/?session=*"
       ],
       "js": [
         "Vadana.js"
